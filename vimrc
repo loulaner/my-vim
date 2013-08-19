@@ -18,7 +18,7 @@ let g:ctrlp_custom_ignore = {
 "       auto-save
 "
 """"""""""""""""""""""""""""""""""""""""
-let g:auto_save = 1
+let g:auto_save = 0
 
 """""""""""""""""""""""""""""""""""""""""
 "
@@ -252,3 +252,8 @@ let g:auto_save = 1
 
   " change cwd to current buffer
   nmap <silent> ,cd :lcd %:h<CR>
+
+
+""""""""""""""""""""""custom"""""""""""""""""""""""""
+colorscheme molokai
+

@@ -266,6 +266,9 @@ map ,y :TagbarToggle<cr>
 """"""""""""""""""""""NERDTree""""""""""""""""
 map ,u :NERDTreeToggle<cr>
 
+""""""""""""""""""""""conque""""""""""""""""""""
+map ,c :ConqueTermSplit 
+
 """"""""""""""""""""""other""""""""""""""""""""""""
 set fencs=utf-8,gbk
 

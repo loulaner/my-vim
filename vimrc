@@ -73,7 +73,8 @@ let g:auto_save = 0
 
   " sudo apt-get install ack-grep, on ubuntu box
   map ,k :Ack <cword><ENTER>
-
+  " use ag
+  let g:ackprg = 'ag --nogroup --nocolor --column'
 
 """"""""""""""""""""""""""""""""""""""""
 "
@@ -254,6 +255,18 @@ let g:auto_save = 0
   nmap <silent> ,cd :lcd %:h<CR>
 
 
-""""""""""""""""""""""custom"""""""""""""""""""""""""
+""""""""""""""""""""""theme"""""""""""""""""""""""""
 colorscheme molokai
+
+""""""""""""""""""""""tagbar""""""""""""""""""""""""
+let g:tagbar_ctags_bin='/usr/local/Cellar/ctags/5.8/bin/ctags'
+let g:tagbar_width=30
+map ,y :TagbarToggle<cr>
+
+""""""""""""""""""""""NERDTree""""""""""""""""
+map ,u :NERDTreeToggle<cr>
+
+""""""""""""""""""""""other""""""""""""""""""""""""
+set fencs=utf-8,gbk
+
 
